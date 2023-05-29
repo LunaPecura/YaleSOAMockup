@@ -1,9 +1,10 @@
 body{
-    background-image: url('https://cdn.filestackcontent.com/output=format:jpg/oQ5rDlroQTyASFsp28p2')
+    background-image: url('https://cdn.filestackcontent.com/output=format:jpg/oQ5rDlroQTyASFsp28p2');
+    margin: 0px;
+    font-family: Arial;
 }
 
 .topPart{
-    border: solid purple;
     width: 900px;
     height: 100px;
     display: flex;
@@ -14,31 +15,30 @@ body{
     width: 350px;
     height: 1000px;
     position: relative;
-    left: 340px;
+    left: 350px;
 }
 
 .addressBox{
     position: relative;
-    right: 14px;
-    z-index: 2;
+    right: 4px;
     margin-top: 15px;
+    z-index: 2;
 }
 
 .addressLine{
     background-color: black;
     color: white;
     font-family: Arial;
-    font-size: 13px;
+    font-size: 12px;
     width: fit-content;
-    height: 13px;
-    margin-bottom: 8px;
+    height: 12px;
+    margin-bottom: 7px;
 }
 
 .bottomPart{
     border: solid pink;
     display: flex;
     width: 900px;
-    height: 500px;
 }
 
 .bottomLeftPart{
@@ -46,18 +46,48 @@ body{
     width: 150px;
 }
 
+.navBox{
+    /* border: solid yellow; */
+    background-color: white;
+    padding: 10px;
+    font-size: 12px;
+    margin-bottom: 11px;
+}
+
+.navItem{
+    font-weight: bold;
+    padding: 2px;
+}
+
+.blahBox{
+    background-color: orangered;
+    font-size: 11px;
+    padding: 10px;
+    line-height: 13px;
+    margin-bottom: 11px;
+}
+
+.buttonBox{
+    background-color: white;
+    padding: 10px;
+}
+
+.button{
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
 .bottomRightPart{
     border: solid blue;
     width: 750px;
 }
 
-px
-
-
-
-
-
-/* .blackTextBox{
+.blackTextBox{
     margin: 10px;
     background-color: black;
     width: fit-content;
@@ -87,4 +117,4 @@ px
 
 .titleSection{
     display: flex;
-} */
+}
