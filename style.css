@@ -1,5 +1,6 @@
 body{
     background-image: url('https://cdn.filestackcontent.com/output=format:jpg/oQ5rDlroQTyASFsp28p2');
+    background-attachment: fixed;
     margin: 0px;
     font-family: Arial;
 }
@@ -16,6 +17,7 @@ body{
     height: 1000px;
     position: relative;
     left: 350px;
+    z-index: 1;
 }
 
 .addressBox{
@@ -36,26 +38,24 @@ body{
 }
 
 .bottomPart{
-    border: solid pink;
     display: flex;
     width: 900px;
+    margin-top: 2px;
 }
 
 .bottomLeftPart{
-    border: solid orange;
     width: 150px;
+    margin-left: 15px;
 }
 
 .navBox{
-    /* border: solid yellow; */
     background-color: white;
     padding: 10px;
-    font-size: 12px;
-    margin-bottom: 11px;
+    font-size: 13px;
+    margin-bottom: 15px;
 }
 
 .navItem{
-    font-weight: bold;
     padding: 2px;
 }
 
@@ -64,12 +64,13 @@ body{
     font-size: 11px;
     padding: 10px;
     line-height: 13px;
-    margin-bottom: 11px;
+    margin-bottom: 13px;
 }
 
 .buttonBox{
     background-color: white;
     padding: 10px;
+    font-size: 13px;
 }
 
 .button{
@@ -83,38 +84,42 @@ body{
 }
 
 .bottomRightPart{
-    border: solid blue;
     width: 750px;
-}
-
-.blackTextBox{
-    margin: 10px;
-    background-color: black;
-    width: fit-content;
-    height: 12px;
-}
-
-.yellowTextBox{
-    margin: 10px;
-    background-color: yellow;
-    width: fit-content;
-    height: 40px;
-    border: solid pink;
-}
-
-.textInBlackBox{
-    color: white;
-    font-size: 12px;
-}
-
-.textInYellowBox{
-    font-size: 40px;  
-    font-weight: bold;
-    margin: 0px;
-    padding: 0px;
-    border: solid red;
+    margin-left: 15px;
 }
 
 .titleSection{
     display: flex;
+    position: relative;
+    z-index: 2;
+}
+
+.titleItem{
+    background-color: yellow;
+    width: fit-content;
+    height: 36px;
+    margin-right: 13px;
+}
+
+.textInTitleItem{
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    bottom: 10px;
+}
+
+.introSection{
+    display: flex;
+}
+
+.introBox{
+    background-color: yellow;
+}
+
+.linkBox{
+    background-color: yellow;
+}
+
+.congratsBox{
+    background-color: lightgreen;
 }
