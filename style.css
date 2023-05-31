@@ -63,7 +63,8 @@ body{
     background-color: orangered;
     font-size: 11px;
     padding: 10px;
-    line-height: 13px;
+    padding-bottom: 20px;
+    line-height: 13.8px;
     margin-bottom: 13px;
 }
 
@@ -110,16 +111,47 @@ body{
 
 .introSection{
     display: flex;
+    margin-top: 38px;
+    position: relative;
+    z-index: 2;
 }
 
 .introBox{
-    background-color: yellow;
+    background: linear-gradient(to right, white, yellow);
+    height: 198px;
+    width: 325px;
+    padding: 10px;
+    font-size: 13px;
+    line-height: 18px;
 }
 
 .linkBox{
-    background-color: yellow;
+    background: linear-gradient(to right, white, yellow);
+    height: 33px;
+    line-height: 33px;
+    width: 320px;
+    border: 2px solid black;
+    margin-left: 3px;
+    padding: 10px;
+    font-size: 13px;
 }
 
 .congratsBox{
-    background-color: lightgreen;
+    background: linear-gradient(to right, white, limegreen);
+    width: 672px;
+    height: 157px;
+    position: relative;
+    z-index: 2;
+    margin-top: 24px;
+    padding: 10px;
+}
+
+.congratsHeading{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.congratsText{
+    font-size: 18px;
+    line-height: 24px;
 }
